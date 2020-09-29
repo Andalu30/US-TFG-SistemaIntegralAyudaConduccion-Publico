@@ -1,0 +1,136 @@
+\chapter{Introducción}
+
+
+\section{Conceptualización}
+En este proyecto, tal y como se indica en el resumen, se pretende diseñar e implementar un sistema integral de ayuda a la conduccion basado en sistemas empotrados de bajo coste.
+
+Si entendemos la elaboración del trabajo de fin de grado como un proyecto tal y como se define en la literatura de gestión de proyectos \cite{project2005guia} \cite{guerin2015gestion} podemos definir el papel de distintas personas de la siguiente forma:
+
+\begin{itemize}
+    \item Cliente:\\
+    El cliente del trabajo de Fin de Grado sería el tutor, en nuestro caso Manuel Jesús Dominguez Morales, al cual debemos de entregar los resultados.
+
+    \item Patrocinadores:\\
+    En cuanto a patrocinadores nos encontramos con la Universidad de Sevilla y la Escuela Tecnica Superior de Ingeniería Informática, de las cuales son estudiantes los dos alumnos que realizan este trabajo. Además, tambien se puede considerar como patrocinador nuestras familias ya que nos han financiado durante nuestra época universitaria.
+
+    \item Jefe de proyecto:\\
+    El jefe de proyecto sería mi persona, ya que soy el alumno que planifica y gestiona el trabajo para finalmente superar los objetivos que se plantearan en la sección \ref{sec_objetivos}.
+
+    \item Interesados:\\
+    En cuanto a interesados, podemos agrupar en este papel a todas las personas que, en mayor o menor medida, vean en nuestro trabajo un beneficio. Así pues, los interesados de nuestro trabajo abarcan desde nosotros mismos y nuestros patrocinadores hasta la comunidad OpenSource de sistemas de ayuda a la conducción pasando por otras personas y entidades como pueden ser, por ejemplo, los compañeros de clase o la empresa en la que los integrantes del trabajo se encuentren trabajando.
+
+    \item Usuarios:
+    Los usuarios potenciales de este proyecto son todas las personas que vayan a utilizar el software y/o hardware que vamos a desarrollar.
+    En primera instancia, los usuarios finales seremos los desarrolladores y, si se cumplen los objetivos, posteriormente se irán incorporando al grupo de usuarios familiares y conocidos que estén dispuestos a realizar una inversión inicial, ya sea en concepto de tiempo o monetario.
+    Idílicamente, nuestro proyecto sería utilizado parcialmente o en su totalidad por una empresa automovilística y se incorpora en la producción de un vehículo comercial. En este caso, los usuarios serían todas las personas que comprasen este vehículo.
+
+\end{itemize}
+
+
+\subsection{Antecedentes}
+
+El sistema que proponemos no es algo novel ya que soluciones similares ya existen en el mercado.
+
+Los sistemas de ayuda a la conducción han sido unos de los primeros pasos que se han dado en la búsqueda de la conducción autónoma por parte de las empresas automovilísticas. Asi pues nos podemos encontrar con sistemas como Mobileye \cite{yoffie2014mobileye}, que forman la base de sistemas de ayuda a la conducción como Nissan ProPilot y las primeras versiones del Autopilot de Tesla. Además, existen otros sistemas basados en visión por computador creados por las propias empresas automovilisticas como SuperCruise de Caddillac\cite{CaddillacSupercruise} o las ultimas versiones del Autopilot de Tesla \cite{teslaAutopilot}.
+
+SuperCruise es uno de los ejemplos más interesantes en cuanto al control del conductor ya que gracias a una serie de sensores situados en el volante son capaces de vigilar la atención del conductor. El uso de estos sensores es mucho mas avanzado que el simple sensor de fuerza de torsión que usa Tesla para la misma función, aunque cabe destacar que el Tesla Model 3 incorpora una cámara interior que tiene visión del interior del vehículo así que es muy posible que en el futuro cercano Tesla comience a vigilar al conductor mediante el uso de visión por computador.
+
+
+El ejemplo que más se parece a nuestro proyecto sería OpenPilot, de Comma.ai \cite{openpilot}, un proyecto basado en visión por computador e inteligencia artificial que, junto con los datos del radar de los vehiculos compatibles, es capaz de analizar el entorno y controlar el vehículo hasta un nivel 2 de autonomía.
+
+\subsection{Estudio de viabilidad}
+\subsubsection{Punto de vista técnico}
+Desde el punto de vista técnico se utilizaran tecnologías Open source que son conocidas por los autores.
+\begin{itemize}
+    \item Como lenguaje de programación se utilizará Python en su versión 3 \cite{python}.
+    \item Para la vision por computador se utilizará OpenCV \cite{opencv}, una de las librerias más conocidas.
+    \item En cuanto a inteligencia artificial se utilizará Tensorflow \cite{tensorflow} y en concreto la API de detección de objetos junto con varios modelos de la comunidad y entrenados por nosotros.
+    \item Respecto al hardware se utilizarán varias Raspberry Pi, seria interesante hacer una comparativa entre los distintos tipos de Raspberry, en este caso Raspberry Pi 3B, Raspberry Pi 3B+ y Raspberry Pi 4.\\
+    Para sensores y señales visuales y sonoras se utilizará hardware basado en Arduino y en el caso de que el proyecto se centre más en el aspecto de inteligencia artificial posiblemente será necesaria la utilización de un coprocesador de inferencia como por ejemplo podria ser Google Coral USB accelerator \cite{coralUSB} ya que la potencia computacional de estos pequeños ordenadores muy posiblemente no será suficiente para analizar en tiempo real el entorno del vehículo.
+\end{itemize}
+
+\subsubsection{Punto de vista económico}
+En cuanto a la viabilidad económica, los gastos previstos son los propios del desarrollo de proyecto, el testeo de las implementaciones y el hardware que sea necesario adquirir. En el capitulo \ref{cap_planificacion} serán desglosados.
+
+\subsubsection{Riesgos}\label{sec_riesgosiniciacion}
+Respecto a los riesgos que se puedan dar en el proyecto podemos destacar:
+\begin{itemize}
+    \item Los posibles errores de compatibilidad de las herramientas con el hardware de la Raspberry Pi.
+    \item Posible recepción sensores defectuosos debido al envio postal.
+    \item Análisis por debajo del ``tiempo real'' que da lugar a asunciones incorrectas sobre el entorno.
+    \item Dificultad en la implementación de alguna parte de la aplicación.
+    \item Eventuales retrasos que se puedan derivar de los horarios de los autores.
+\end{itemize}
+
+
+
+\section{Definición}
+\subsection{Análisis de requisitos}
+
+A continuación se incorpora una lista con los requisitos de este proyecto.
+
+\begin{itemize}
+    \item En general
+    \begin{itemize}
+        \item La aplicación debe ejecutarse de manera autónoma, sin necesitar la interacción de una persona ya que esto podria ser una distracción para el conductor.
+        \item La responsabilidad del control del vehículo permanece en todo momento sobre el conductor, la aplicación no interacciona con los controles del vehículo.
+    \end{itemize}
+
+    \item Respecto a el reconocimiento del carril
+    \begin{itemize}
+        \item La aplicación debe ser capaz de reconocer las lineas de la calzada en una situación favorable y realizar un trabajo decente en situación
+        \item Se debe calcular la desviación del vehiculo respecto al centro del carril
+    \end{itemize}
+
+    \item Respecto a la detección de vehiculos y otros obstaculos
+    \begin{itemize}
+        \item Se deben detectar vehículos de distintos tipos: coches, camiones, motocicletas, etc...
+        \item Se deben detectar varios tipos de señales de circulación, en concreto todas aquellas relacionadas con el limite de velocidad asi como señales de STOP y semáforos.
+        \item Se deben detectar correctamente peatones
+    \end{itemize}
+
+    \item Respecto a las alertas visuales y sonoras
+    \begin{itemize}
+        \item La aplicación debe avisar al conductor cuando detecte una situación anómala.
+        \item Si se detecta un peaton en la trayectoria del vehículo se debe avisar al conductor de forma acústica.
+        \item La notificacion de punto muerto debe de realizarse mediante una pequeña luz en el espejo retrovisor y de forma audible si se va a realizar un cambio de carril.
+        \item La notificación del limite de velocidad debe realizarse de forma visual y auditiva.
+    \end{itemize}
+
+\end{itemize}
+
+Por supuesto tambien existe una limitación temporal, las 300 horas por persona que se corresponden con los creditos de la asignatura.
+
+
+\subsection{Objetivos}\label{sec_objetivos}
+De entre los objetivos que nos proponemos en este proyecto podemos destacar los siguientes:
+\begin{itemize}
+    \item Recojida y parseo de datos del bus CAN del vehículo
+    \item Detección y aviso de salida de carril
+    \item Detección y aviso de vehiculos en punto muerto
+    \item Detección y aviso de peatones en la trayectoria del vehículo
+    \item Detección y seguimiento del limite de velocidad mediante la identificación de las correspondientes señales de circulación
+\end{itemize}
+
+Como objetivo final que englobe a todos los demas del proyecto se puede considerar el diseño e implementación de un sistema integral de ayuda a la conducción basado en sistemas empotrados de bajo coste que sea capaz de detectar situaciones y estados anómalos y notifique al conductor de forma visual y/o auditiva.
+
+
+\subsection{Alcance y calidad}
+
+En cuanto al alcance del proyecto podemos definir lo que nuestra aplicación hará y no hará.
+
+\begin{itemize}
+    \item La aplicación detectará el entorno del vehículo y lo monitorizará en busca de eventos anómalos.
+    \item La aplicación funcionará de forma independiente a los sistemas del vehículo, con la excepcion del sistema de distribución de energía si el usuario lo desea.
+    \item La aplicación no tomará el control de ningún sistema del vehículo una vez iniciada la marcha.
+    \item No se permitirá la modificación de parametros y ajustes por parte del usuario final.
+    \item Las notificaciones al conductor deben de ser, en el caso auditivo, claramente diferenciables entre los ruidos y, en el caso visual, encontrarse en una posición natural que no distraiga al conductor.
+\end{itemize}
+
+Así mismo, aunque no forme parte de los objetivos del proyecto, la entrega de este requiere de una memoria, la cual deberia de satisfacer ciertos estandares:
+\begin{itemize}
+    \item Redactado de forma clara, sin errores gramaticales, con un estilo definido y que posea índice.
+    \item Deberia proporcionar referencias bibliograficas completas.
+    \item Define, identifica y justifica el tema y los aspectos a resolver.
+    \item Formula los objetivos y presenta las fases previstas para la elaboración del trabajo.
+\end{itemize}

@@ -1,0 +1,232 @@
+\chapter{Planficación}\label{cap_planificacion}
+\section{Análisis temporal y costes de desarrollo}
+En esta sección se identificarán las tareas e hitos de los que se compone este proyecto asi como una estimación de los costes del desarrollo.
+
+\subsection{Actividades, tareas e hitos}
+A continuación se enumeran las tareas, agrupadas por tipo. El orden de las tareas no supone la prioridad de unas frente a otras. Los hitos se encuentran marcados en negrita.
+
+\begin{enumerate}
+  \item Iniciación del proyecto:
+  \begin{enumerate}
+    \item Identificación de objetivos, alcance, interesados y riesgos a alto nivel.
+    \item Elaboración del acta de constitución del trabajo de fin de grado.
+    \item Plan de riesgos.
+    \item Plan de calidad.
+    \item Plan de comunicaciones.
+    \item \textbf{Hito: Reunión con el cliente acerca de la dirección del proyecto.}
+  \end{enumerate}
+
+
+  \item Recogida de información de sensores:
+  \begin{enumerate}
+    \item Adquisición de los sensores de ultrasonidos necesarios.
+    \item Adquisición del conector ODB2.
+    \item \textbf{Hito: Codificación del módulo encargado de la recojida y parseo de datos de los sensores.}
+  \end{enumerate}
+
+
+  \item Vision por computador:
+  \begin{enumerate}
+    \item Toma de contacto con OpenCV.
+    \item Adquisición de las cámaras necesarias.
+    \item Codificación del módulo encargado del preprocesamiento de la imagen de las cámaras.
+    \item \textbf{Hito: Codificación del módulo encargado del analisis de las imágenes y extracción de las lineas de la calzada.}
+    \item Implementación del módulo en un sistema empotrado.
+  \end{enumerate}
+
+
+  \item Inteligencia artificial:
+  \begin{enumerate}
+    \item Toma de contacto con Tensorflow.
+    \item Codificación del módulo encargado de la detección de objetos.
+    \item Entrenamiento de un modelo personalizado y/o modificación de uno ya existente + adquisición del dataset.
+    \item Conversión del modelo personalizado a un formato compatible con Tensorflow Lite
+    \item \textbf{Hito: Implementación del módulo en un sistema empotrado.}
+    \item Comparativa de resultados en distintos hardware.
+  \end{enumerate}
+
+  \item Toma de decisiones y notificaciones:
+  \begin{enumerate}
+    \item Calculo de la trayectoria del vehículo
+    \item \textbf{Hito: Implementación de la toma de decisiones sobre el entorno.}
+    \item Implementación de las notificaciones auditivas.
+    \item Implementación de las notificaciones visuales e interfaz.
+  \end{enumerate}
+
+  \item Documentación del proyecto:
+  \begin{enumerate}
+    \item Elaboración de la documentación del proyecto.
+    \item \textbf{Hito: Entrega de la documentacion y el código fuente al cliente.}
+  \end{enumerate}
+
+  \item Defensa final del proyecto:
+  \begin{enumerate}
+    \item Elaboración de la presentación del proyecto.
+    \item Ensayo de la presentación.
+    \item \textbf{Hito: Presentación ante el tribunal.}
+  \end{enumerate}
+\end{enumerate}
+
+
+\subsubsection{Distribución de roles y responsabilidades}
+
+La distribución de roles del proyecto es un tanto complicada.
+
+Una gran parte del trabajo se realizará conjuntamente entre los dos autores y otra parte, principalmente la relacionada con la documentación, se deberá de realizar por separado.
+
+Además, tambien tenemos que destacar los distintos horarios de trabajo de los integrantes del grupo. Durante la duración del proyecto ambos integrantes del grupo verán reducido el tiempo que le pueden dedicar a este proyecto debido a las futuras prácticas de empresa así como asuntos familiares.
+
+Teniendo en cuenta esto último, y que los horarios de los integrantes del grupo son los que se pueden ver en el cuadro \ref{tab_horarios} podemos hacer una distribucion de responsabilidad inical tal y como se indica en el cuadro \ref{tab_distribucion}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Día       & \multicolumn{1}{l}{Juan Arteaga Carmona} & \multicolumn{1}{l}{Antonio Jesús Santiago Muñoz} \\ \midrule
+Lunes     & 15:30-20:30                              & 15:30-20:30                                      \\
+Martes    & 15:30-19:15                              & 15:30-20:30                                      \\
+Miércoles & 15:30-20:30                              & 15:30-19:15                                      \\
+Jueves    & 15:30-17:15                              & 15:30-20:30                                      \\
+Viernes   & 15:30-18:30                              & 15:30-19:15                                      \\
+Sabado    & 10:00-14:00                              & 10:00-14:00                                      \\
+Domingo   & \multicolumn{1}{l}{}                     & \multicolumn{1}{l}{}                             \\ \bottomrule
+\end{tabular}
+\caption{Horarios de disponibilidad del equipo de este proyecto}
+\label{tab_horarios}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+Tarea                               & Distribución                                                                                \\ \midrule
+Iniciación del proyecto             & \begin{tabular}[c]{@{}l@{}}Juan Arteaga Carmona\\ Antonio Jesús Santiago Muñoz\end{tabular} \\
+Recogida de información de sensores & Antonio Jesús Santiago Muñoz                                                                \\
+Visión por computador               & Antonio Jesús Santiago Muñoz                                                                \\
+Inteligencia artificial             & Juan Arteaga Carmona                                                                        \\
+Toma de decisiones y notificaciones & Juan Arteaga Carmona                                                                        \\
+Documentación del proyecto          & \begin{tabular}[c]{@{}l@{}}Juan Arteaga Carmona\\ Antonio Jesús Santiago Muñoz\end{tabular} \\
+Defensa final del proyecto          & \begin{tabular}[c]{@{}l@{}}Juan Arteaga Carmona\\ Antonio Jesús Santiago Muñoz\end{tabular} \\ \bottomrule
+\end{tabular}
+\caption{Distribución de las tareass }
+\label{tab_distribucion}
+\end{table}
+
+
+
+\subsection{Cronograma}\label{sec_cronograma}
+En la figura \ref{fig_cronograma} podemos ver el cronograma del proyecto.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{img/gantttfg.png}
+    \caption{Cronograma del proyecto}
+    \label{fig_cronograma}
+\end{figure}
+
+\subsubsection{Camino crítico}
+El camíno crítico del proyecto se puede observar en la figura \ref{fig_camcritic}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{img/ganttCritico.png}
+    \caption{Cronograma con el camino crítico del proyecto}
+    \label{fig_camcritic}
+\end{figure}
+
+\subsection{Estimación de costes}
+
+En el cuadro \ref{tab_costesriol} se puede ver una aproximación de los costes del desarrollo según el rol y las horas de trabajo.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Rol & \multicolumn{1}{l}{Precio/hora} & \multicolumn{1}{l}{Horas aproximadas} & \multicolumn{1}{l}{Precio total aproximado} \\ \midrule
+Jefe de Proyecto & 47 € & 10 & 470 € \\
+Analista & 35 € & 70 & 2450 €\\
+Diseñador & 35 € & 35 & 1225 €\\
+Desarrollador & 31 € & 160 & 4960 €\\
+Tester & 31 € & 25 & 775 €\\ \bottomrule
+\end{tabular}
+\caption{Estimación de costes según rol y horas}
+\label{tab_costesriol}
+\end{table}
+
+Cada miembro del equipo de trabajo deberá ejercer las funciones de cada rol durante el desarrollo del trabajo de acuerdo con lo especificado en el cuadro anterior.
+
+Además, será necesario añadir la cantidad correspondiente al material que adquiriremos.
+El material que pensamos considerar durante la realización de este trabajo se encuentra especificado en el cuadro \ref{tab_productospropuestos}.
+
+
+\begin{table}[H]
+  \centering
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{}llll@{}}
+  \toprule
+  Producto                                 & Cantidad & Precio unitario & Precio total \\ \midrule
+  Raspberry Pi 3B                          & 1        & 35€             & 35€          \\
+  Rapsberry Pi 3B+                         & 1        & 44€             & 44€          \\
+  Raspberry Pi 4 4GB                       & 1        & 60€             & 60€          \\
+  Mini ELM327 ODB2                         & 1        & 3€              & 3€           \\
+  Sensores de ultrasonidos                  & 2        & 1.3€            & 2.6€         \\
+  Google Coral USB Accelerator  & 1        & 75€             & 75€          \\
+  Pantalla OLED 1.3''                      & 2        & 1.5€            & 3€           \\
+  Pantalla TFT 3.5''                       & 1        & 17€             & 17€          \\
+  Pantalla táctil 5/7''                    & 1        & 33-72€          & 33-72€       \\
+  Altavoz                                  & 1        & 0.5€            & 0.5€         \\ \bottomrule
+  \end{tabular}%
+  }
+  \caption{Productos cuya adquisicion es considerable.}
+  \label{tab_productospropuestos}
+\end{table}
+
+Sin embargo, ya que los autores poseen parte de los componentes y que es posible que el cliente aporte algunos, el precio final será inferior a la suma de todos los componentes especificados en el cuadro.
+
+
+\section{Plan de riesgos}
+\subsection{Identificación de riesgos}
+Como hemos visto previamente en la sección \ref{sec_riesgosiniciacion}, los posibles riesgos que nos podemos encontrar son:
+\begin{itemize}
+    \item Los posibles errores de compatibilidad de las herramientas con el hardware de la Raspberry Pi.
+    \item Posible recepción sensores defectuosos debido al envio postal.
+    \item Análisis por debajo del ``tiempo real'' que da lugar a asunciones incorrectas sobre el entorno.
+    \item Dificultad en la implementación de alguna parte de la aplicación.
+    \item Eventuales retrasos que se puedan derivar de los horarios de los autores.
+\end{itemize}
+
+
+\subsection{Planes de contingencia}
+Para solventar los problemas que puedan ocurrir a razon de los riesgos del proyecto se recurriria a:
+
+\begin{itemize}
+  \item Se podrian buscar arquitecturas distintas. Por ejemplo se podria trabajar sobre un sistema Nvidia Jetson Nano o directamente sobre un PC portátil.
+  \item Realizar pedidos adicionales.
+  \item Optimizar todo lo posible el codigo y, en el caso de que sea necesario migrarlo a C++
+  \item Buscar y estudiar casos similares que otras personas hayan implementado anteriormente.
+  \item Reorganización del cronograma sin retrasar la fecha limite del proyecto para ajustar la carga de trabajo entre los integrantes del equipo de trabajo.
+\end{itemize}
+
+\section{Plan de calidad}
+\subsection{Indicadores}
+En cuanto a indicadores de calidad, creemos que los indicadores en los que nos tenemos que centrar son:
+
+\begin{itemize}
+  \item Framerate, tiempo de inferencia y calidad de la detección de objetos.\\
+    Cuanto menor sea el tiempo de inferencia mayor framerate conseguiremos y de esta forma mejoraremos la calidad del reconocimiento de señales, vehículos y peatones por lo que mejoraremos la calidad de nuestro software.
+  \item Similitud en la predicción de la trayectoria con la realidad.
+  \item Valoración de los usuarios de prueba y del cliente.
+  \item Cumplimiento de los objetivos de la seccion \ref{sec_objetivos}.
+  \item Comparativa con el sistema de ayuda a la conducción del vehículo de prueba.
+\end{itemize}
+
+
+\subsection{Plan de mejora}
+El plan de mejora de este proyecto consiste en prestar especial atención a los comentarios de nuestro cliente para asegurarnos de que nos acercamos lo máximo posible a lo que este espera.
+Sin embargo, como no siempre sera posible hacer las cosas tal y como nuestro tutor desea esperamos que poco a poco, consigamos llegar a un nivel que sea mas que aceptable por nuestro cliente.
+
+\section{Plan de comunicaciones}
+Respecto al plan de comunicaciones de este trabajo de fin de grado, tal y como se puede ver en la seccion \ref{sec_cronograma}, se realizarán varias reuniones entre los integrantes del proyecto y el tutor (el cliente).
+
+Ademas, eventualmente, en la fase de testeo se realizarán pequeñas reuniones con los usuarios que tengan la oportunidad de probar el software.

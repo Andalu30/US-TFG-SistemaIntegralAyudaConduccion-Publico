@@ -1,0 +1,3685 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.23)  21 SEP 2020 19:11
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Memoria.tex
+(./Memoria.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (./pclass.cls
+Document Class: pclass 2008/09/08 PFC class Universidad de Sevilla
+(/usr/share/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (./amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen145
+)) (./amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen146
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count179
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count180
+\leftroot@=\count181
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count182
+\DOTSCASE@=\count183
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
+\macc@depth=\count184
+\c@MaxMatrixCols=\count185
+\dotsspace@=\muskip16
+\c@parentequation=\count186
+\dspbrk@lvl=\count187
+\tag@help=\toks18
+\row@=\count188
+\column@=\count189
+\maxfields@=\count190
+\andhelp@=\toks19
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (./amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks27
+) (./amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (./latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/05/13 3.44 The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count191
+\U@D=\dimen154
+\l@babelnohyphens=\language86
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count192
+ (./spanish.ldf
+Language: spanish.ldf 2007/02/21 v5.0a Spanish support from the babel system
+\es@datefmt=\count193
+\es@quottoks=\toks28
+\es@quotdepth=\count194
+Package babel Info: Making " an active character on input line 488.
+Package babel Info: Making . an active character on input line 581.
+Package babel Info: Making < an active character on input line 626.
+Package babel Info: Making > an active character on input line 626.
+Package babel Info: Making ' an active character on input line 652.
+))
+(/usr/share/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (./symbols.sty
+Package: symbols 2002/12/11 Personal macros for common math symbols
+\uni@fixwidth=\skip55
+\uni@truewidth=\skip56
+)
+(./titlesec.sty
+Package: titlesec 2007/08/12 v2.8 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen155
+\ttl@minus=\dimen156
+\ttl@toksa=\toks29
+\titlewidth=\dimen157
+\titlewidthlast=\dimen158
+\titlewidthfirst=\dimen159
+ (./ttlps.def
+File: ttlps.def 2007/08/12
+)) (./titletoc.sty
+Package: titletoc 2007/08/12 v1.6 TOC entries
+\ttl@leftsep=\dimen160
+) (./tocbibind.sty
+Package: tocbibind 2003/03/13 v1.5g extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (./boxedminipage.sty) (./multicol.sty
+Style option: `multicol' v1.4m <92/09/04> (FMi)
+English documentation          <92/09/04> (FMi)
+\mult@box=\box48
+\multicol@leftmargin=\dimen161
+\c@unbalance=\count195
+\c@collectmore=\count196
+\c@tracingmulticols=\count197
+\col@number=\count198
+\doublecol@number=\count199
+\multicoltolerance=\count266
+\multicolpretolerance=\count267
+\full@width=\dimen162
+\page@free=\dimen163
+\premulticols=\dimen164
+\postmulticols=\dimen165
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box49
+\last@line=\box50
+) (/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) (./listings.sty
+\lst@mode=\count268
+\lst@gtempboxa=\box51
+\lst@token=\toks30
+\lst@length=\count269
+\lst@currlwidth=\dimen166
+\lst@column=\count270
+\lst@pos=\count271
+\lst@lostspace=\dimen167
+\lst@width=\dimen168
+\lst@newlines=\count272
+\lst@lineno=\count273
+\lst@maxwidth=\dimen169
+
+(./lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count274
+\lst@skipnumbers=\count275
+\lst@framebox=\box52
+) (./listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+ (./fancyhdr.sty
+\fancy@headwidth=\skip61
+\f@ncyO@elh=\skip62
+\f@ncyO@erh=\skip63
+\f@ncyO@olh=\skip64
+\f@ncyO@orh=\skip65
+\f@ncyO@elf=\skip66
+\f@ncyO@erf=\skip67
+\f@ncyO@olf=\skip68
+\f@ncyO@orf=\skip69
+) (./block.tss
+File: block.tss 2007/08/12
+)
+\c@thm=\count276
+\c@defn=\count277
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+)
+(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-06-03 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count278
+\l__pdf_internal_box=\box53
+))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count279
+\g__xparse_grabber_int=\count280
+\l__xparse_m_args_int=\count281
+\l__xparse_v_nesting_int=\count282
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count285
+\calc@Cskip=\skip72
+)
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)))
+\AM@pagewidth=\dimen172
+\AM@pageheight=\dimen173
+
+(/usr/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box54
+\AM@global@opts=\toks33
+\AM@pagecnt=\count286
+\AM@toc@title=\toks34
+\c@AM@survey=\count287
+\AM@templatesizebox=\box55
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen186
+)
+(/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen187
+\captionmargin@=\dimen188
+\captionwidth=\dimen189
+\caption@tempdima=\dimen190
+\caption@indent=\dimen191
+\caption@parindent=\dimen192
+\caption@hangindent=\dimen193
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count292
+\c@continuedfloat=\count293
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count294
+\c@subtable=\count295
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen194
+\Hy@linkcounter=\count296
+\Hy@pagecounter=\count297
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count298
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count299
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen195
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count300
+\Field@Width=\dimen196
+\Fld@charsize=\dimen197
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+\Hy@abspage=\count301
+\c@Item=\count302
+\c@Hfootnote=\count303
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip73
+)
+(/usr/share/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box56
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen198
+\WF@size=\dimen199
+\c@WF@wrappedlines=\count306
+\WF@box=\box57
+\WF@everypar=\toks35
+Package: wrapfig 2003/01/31  v 3.6
+)
+(DocumentoCompilado//Memoria.aux
+
+LaTeX Warning: Label `sec_resumen' multiply defined.
+
+
+LaTeX Warning: Label `fig:comparativaDephmapRGB' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-33.0119pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=100.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen256
+\scratchbox=\box58
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen257
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks37
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count313
+\AtBeginShipoutBox=\box59
+
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 42.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count314
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+
+(DocumentoCompilado//Memoria.out) (DocumentoCompilado//Memoria.out)
+\@outlinefile=\write3
+<img/us.jpg, id=490, 36.135pt x 36.135pt>
+File: img/us.jpg Graphic file (type jpg)
+<use img/us.jpg>
+Package pdftex.def Info: img/us.jpg  used on input line 58.
+(pdftex.def)             Requested size: 90.33722pt x 90.33722pt.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
+8.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \hacerportada
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/us.jpg>]
+(./tocdef.tex) (./Capitulos/noprincipales/resumenIngles.tex)
+(./Capitulos/noprincipales/resumen.tex [1
+
+
+])
+(./Capitulos/noprincipales/agradecimientos.tex [2
+
+]) [3
+
+]
+(DocumentoCompilado//Memoria.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 7.
+
+
+(/usr/share/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [4
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.33044pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5])
+\tf@toc=\write4
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.33044pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6] (DocumentoCompilado//Memoria.lot)
+\tf@lot=\write5
+ [7
+
+] (DocumentoCompilado//Memoria.lof
+[8
+
+])
+\tf@lof=\write6
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.33044pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9] (DocumentoCompilado//Memoria.lol)
+\tf@lol=\write7
+ [10
+
+] (./Capitulos/principales/Bloque1.tex
+Cap\'{\i }tulo 1.
+
+Overfull \hbox (0.44167pt too wide) in paragraph at lines 28--30
+\OT1/cmr/m/n/10.95 Finalmente nos en-con-tra-re-mos con las re-fe-ren-cias bi-b
+liogr^^Safi-cas y los dis-tin-tos ap^^Sendi-
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 \subsection{Objetivos técnicos}
+                                      [1
+
+
+]
+Overfull \hbox (2.41872pt too wide) in paragraph at lines 52--53
+\OT1/cmr/m/n/10.95 con-si-de-rar una se-rie de re-qui-si-tos dis-tin-tos re-la-
+cio-na-dos con el car^^Sacter edu-ca-ti-vo y acad^^Semi-
+ []
+
+
+LaTeX Warning: Citation `yoffie2014mobileye' on page 2 undefined on input line 
+70.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+LaTeX Warning: Citation `CaddillacSupercruise' on page 3 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Citation `teslaAutopilot' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation `manualModel3' on page 3 undefined on input line 75.
+
+
+LaTeX Warning: Citation `openpilot' on page 3 undefined on input line 77.
+
+
+LaTeX Warning: Citation `teslaAutonomyDay' on page 3 undefined on input line 89
+.
+
+
+LaTeX Warning: Citation `karpathyAI' on page 3 undefined on input line 89.
+
+
+LaTeX Warning: Citation `karpathyPytorch' on page 3 undefined on input line 89.
+
+
+<img/teslaautopilotOverlays.png, id=823, 721.94719pt x 540.51938pt>
+File: img/teslaautopilotOverlays.png Graphic file (type png)
+<use img/teslaautopilotOverlays.png>
+Package pdftex.def Info: img/teslaautopilotOverlays.png  used on input line 96.
+
+(pdftex.def)             Requested size: 170.71718pt x 127.81384pt.
+<img/teslaTopDown.png, id=824, 408.77719pt x 447.92343pt>
+File: img/teslaTopDown.png Graphic file (type png)
+<use img/teslaTopDown.png>
+Package pdftex.def Info: img/teslaTopDown.png  used on input line 102.
+(pdftex.def)             Requested size: 170.71718pt x 187.06717pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `CaddillacSupercruise' on page 3 undefined on input lin
+e 113.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+<img/cadillacSupercruise.png, id=831, 478.03593pt x 290.58563pt>
+File: img/cadillacSupercruise.png Graphic file (type png)
+<use img/cadillacSupercruise.png>
+Package pdftex.def Info: img/cadillacSupercruise.png  used on input line 119.
+(pdftex.def)             Requested size: 298.75264pt x 181.60226pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./img/teslaautopilotOverlays.png (PNG copy)> <./img/teslaTopDown.png (PNG c
+opy)> <./img/cadillacSupercruise.png (PNG copy)>]
+<img/Openpilot.jpg, id=836, 709.65125pt x 411.5375pt>
+File: img/Openpilot.jpg Graphic file (type jpg)
+<use img/Openpilot.jpg>
+Package pdftex.def Info: img/Openpilot.jpg  used on input line 134.
+(pdftex.def)             Requested size: 170.71718pt x 98.99707pt.
+<img/openpilot2.jpeg, id=837, 1327.96124pt x 989.6975pt>
+File: img/openpilot2.jpeg Graphic file (type jpg)
+<use img/openpilot2.jpeg>
+Package pdftex.def Info: img/openpilot2.jpeg  used on input line 140.
+(pdftex.def)             Requested size: 170.71718pt x 127.23055pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./img/Openpilot.jpg> <./img/openpilot2.jpeg>]
+
+LaTeX Warning: Citation `backups321' on page 6 undefined on input line 191.
+
+) (./Capitulos/principales/Bloque2.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Cap\'{\i }tulo 2.
+<img/Arquitectura Aplicacion.png, id=846, 999.735pt x 512.91624pt>
+File: img/Arquitectura Aplicacion.png Graphic file (type png)
+<use img/Arquitectura Aplicacion.png>
+Package pdftex.def Info: img/Arquitectura Aplicacion.png  used on input line 10
+.
+(pdftex.def)             Requested size: 426.79135pt x 218.96873pt.
+[7
+
+ <./img/Arquitectura Aplicacion.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+<img/JetsonXavier2.png, id=860, 1294.8375pt x 728.7225pt>
+File: img/JetsonXavier2.png Graphic file (type png)
+<use img/JetsonXavier2.png>
+Package pdftex.def Info: img/JetsonXavier2.png  used on input line 51.
+(pdftex.def)             Requested size: 213.39568pt x 120.08946pt.
+<img/jetsonAGX.jpg, id=861, 1030.85126pt x 962.59625pt>
+File: img/jetsonAGX.jpg Graphic file (type jpg)
+<use img/jetsonAGX.jpg>
+Package pdftex.def Info: img/jetsonAGX.jpg  used on input line 55.
+(pdftex.def)             Requested size: 170.71718pt x 159.40904pt.
+<img/xboxkinect.jpg, id=863, 1505.625pt x 536.0025pt>
+File: img/xboxkinect.jpg Graphic file (type jpg)
+<use img/xboxkinect.jpg>
+Package pdftex.def Info: img/xboxkinect.jpg  used on input line 77.
+(pdftex.def)             Requested size: 192.0548pt x 68.36598pt.
+<img/xtionprolive.jpeg, id=864, 376.40625pt x 154.32657pt>
+File: img/xtionprolive.jpeg Graphic file (type jpg)
+<use img/xtionprolive.jpeg>
+Package pdftex.def Info: img/xtionprolive.jpeg  used on input line 82.
+(pdftex.def)             Requested size: 192.0548pt x 78.74553pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9
+
+ <./img/JetsonXavier2.png> <./img/jetsonAGX.jpg>]
+<img/comparativaDephRGB/rgb.png, id=871, 1084.05pt x 813.0375pt>
+File: img/comparativaDephRGB/rgb.png Graphic file (type png)
+<use img/comparativaDephRGB/rgb.png>
+Package pdftex.def Info: img/comparativaDephRGB/rgb.png  used on input line 110
+.
+(pdftex.def)             Requested size: 170.71718pt x 128.02927pt.
+<img/comparativaDephRGB/depth.png, id=872, 1084.05pt x 813.0375pt>
+File: img/comparativaDephRGB/depth.png Graphic file (type png)
+<use img/comparativaDephRGB/depth.png>
+Package pdftex.def Info: img/comparativaDephRGB/depth.png  used on input line 1
+16.
+(pdftex.def)             Requested size: 170.71718pt x 128.02927pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+LaTeX Warning: Citation `marcan42kinect' on page 10 undefined on input line 131
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./img/xboxkinect.jpg> <./img/xtionprolive.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+<img/sonyPSeye.jpg, id=881, 465.74pt x 501.875pt>
+File: img/sonyPSeye.jpg Graphic file (type jpg)
+<use img/sonyPSeye.jpg>
+Package pdftex.def Info: img/sonyPSeye.jpg  used on input line 157.
+(pdftex.def)             Requested size: 106.69783pt x 114.97699pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./img/comparativaDephRGB/rgb.png> <./img/comparativaDephRGB/depth.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+<img/aukeyWebcam.jpg, id=889, 1505.625pt x 1023.825pt>
+File: img/aukeyWebcam.jpg Graphic file (type jpg)
+<use img/aukeyWebcam.jpg>
+Package pdftex.def Info: img/aukeyWebcam.jpg  used on input line 191.
+(pdftex.def)             Requested size: 149.37958pt x 101.57613pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./img/sonyPSeye.jpg> <./img/aukeyWebcam.jpg>]
+<img/tobii.png, id=895, 2377.88374pt x 251.94125pt>
+File: img/tobii.png Graphic file (type png)
+<use img/tobii.png>
+Package pdftex.def Info: img/tobii.png  used on input line 205.
+(pdftex.def)             Requested size: 256.07741pt x 27.12929pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./img/tobii.png>]
+
+LaTeX Warning: Citation `Dosovitskiy17' on page 14 undefined on input line 238.
+
+
+
+LaTeX Warning: Citation `unrealengine' on page 14 undefined on input line 239.
+
+<img/carla1.png, id=903, 660.21657pt x 195.73125pt>
+File: img/carla1.png Graphic file (type png)
+<use img/carla1.png>
+Package pdftex.def Info: img/carla1.png  used on input line 243.
+(pdftex.def)             Requested size: 362.77525pt x 107.55396pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14
+
+ <./img/carla1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+<img/carla3.png, id=910, 700.86844pt x 265.74281pt>
+File: img/carla3.png Graphic file (type png)
+<use img/carla3.png>
+Package pdftex.def Info: img/carla3.png  used on input line 260.
+(pdftex.def)             Requested size: 224.70668pt x 85.19757pt.
+<img/model3.png, id=911, 723.45282pt x 368.87813pt>
+File: img/model3.png Graphic file (type png)
+<use img/model3.png>
+Package pdftex.def Info: img/model3.png  used on input line 266.
+(pdftex.def)             Requested size: 159.4029pt x 81.27725pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 286.
+
+<img/carla2.png, id=913, 464.4853pt x 164.11313pt>
+File: img/carla2.png Graphic file (type png)
+<use img/carla2.png>
+Package pdftex.def Info: img/carla2.png  used on input line 310.
+(pdftex.def)             Requested size: 341.43437pt x 120.63797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./img/carla3.png (PNG copy)> <./img/model3.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <./img/carla2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+<img/qtdesigner.png, id=923, 1225.57875pt x 746.03719pt>
+File: img/qtdesigner.png Graphic file (type png)
+<use img/qtdesigner.png>
+Package pdftex.def Info: img/qtdesigner.png  used on input line 332.
+(pdftex.def)             Requested size: 341.43437pt x 207.8303pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17
+
+ <./img/qtdesigner.png (PNG copy)>]
+
+LaTeX Warning: Citation `lisaPaper' on page 18 undefined on input line 343.
+
+<img/ejemploLisa.jpg, id=930, 1284.8pt x 963.6pt>
+File: img/ejemploLisa.jpg Graphic file (type jpg)
+<use img/ejemploLisa.jpg>
+Package pdftex.def Info: img/ejemploLisa.jpg  used on input line 349.
+(pdftex.def)             Requested size: 209.12593pt x 156.84045pt.
+<img/recortesemaf.jpg, id=931, 32.12pt x 41.15375pt>
+File: img/recortesemaf.jpg Graphic file (type jpg)
+<use img/recortesemaf.jpg>
+Package pdftex.def Info: img/recortesemaf.jpg  used on input line 354.
+(pdftex.def)             Requested size: 102.43134pt x 131.25069pt.
+<img/ejemploIntersecSi.png, id=933, 474.27188pt x 210.7875pt>
+File: img/ejemploIntersecSi.png Graphic file (type png)
+<use img/ejemploIntersecSi.png>
+Package pdftex.def Info: img/ejemploIntersecSi.png  used on input line 373.
+(pdftex.def)             Requested size: 192.0548pt x 85.3556pt.
+<img/ejemploIntersecNO.png, id=934, 450.79308pt x 200.35248pt>
+File: img/ejemploIntersecNO.png Graphic file (type png)
+<use img/ejemploIntersecNO.png>
+Package pdftex.def Info: img/ejemploIntersecNO.png  used on input line 379.
+(pdftex.def)             Requested size: 192.0548pt x 85.35808pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18
+
+ <./img/ejemploLisa.jpg> <./img/recortesemaf.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <./img/ejemploIntersecSi.png> <./img/ejemploIntersecNO.png>]
+
+LaTeX Warning: Citation `manualJetson' on page 20 undefined on input line 412.
+
+
+LaTeX Warning: Citation `jetsoninferencegithub' on page 20 undefined on input l
+ine 427.
+
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 ...ompilación de \textit{jetson-inference}]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) (./lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+431.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20
+
+]
+! Undefined control sequence.
+l.442 ...e se deseen modificar varios archivos C\+
+                                                  \+ del código fuente de l...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.442 ...se deseen modificar varios archivos C\+\+
+                                                   del código fuente de la ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Dosovitskiy17' on page 21 undefined on input line 447.
+
+
+
+LaTeX Warning: Citation `carlaOpengl' on page 21 undefined on input line 453.
+
+<img/carlaConductor.png, id=959, 603.0028pt x 452.4403pt>
+File: img/carlaConductor.png Graphic file (type png)
+<use img/carlaConductor.png>
+Package pdftex.def Info: img/carlaConductor.png  used on input line 462.
+(pdftex.def)             Requested size: 341.43437pt x 256.18155pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `repoCARLA' on page 21 undefined on input line 476.
+
+! Undefined control sequence.
+l.476 ...s permitirá importar el módulo \textitt
+                                                  {carla} desde cualquier ar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+
+LaTeX Warning: Citation `tobiiAnalyticalUse' on page 22 undefined on input line
+ 485.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./img/carlaConductor.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 ...n el simulador,label={cod:camaracentral}]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+Overfull \hbox (63.06998pt too wide) in paragraph at lines 516--517
+[]\OT1/cmr/m/n/10.95 La po-si-ci^^Son de las c^^Sama-ras pue-de ser mo-di-fi-ca
+-da mo-di-fi-can-do la va-ria-ble \OT1/cmtt/m/n/10.95 camera[]transform[]centra
+l
+ []
+
+<img/Imagenes camaras.png, id=977, 997.7275pt x 503.8825pt>
+File: img/Imagenes camaras.png Graphic file (type png)
+<use img/Imagenes camaras.png>
+Package pdftex.def Info: img/Imagenes camaras.png  used on input line 521.
+(pdftex.def)             Requested size: 341.43437pt x 172.43263pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24
+
+ <./img/Imagenes camaras.png>]
+
+LaTeX Warning: Citation `yolov3' on page 25 undefined on input line 549.
+
+<img/Arquitectura AtencionConductor.png, id=992, 845.1575pt x 344.28625pt>
+File: img/Arquitectura AtencionConductor.png Graphic file (type png)
+<use img/Arquitectura AtencionConductor.png>
+Package pdftex.def Info: img/Arquitectura AtencionConductor.png  used on input 
+line 561.
+(pdftex.def)             Requested size: 426.79135pt x 173.86055pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <./img/Arquitectura AtencionConductor.png>]
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.571 ...caption=Grid principal de la aplicación]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) (./lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.579 ...xto para seleccion del servidor y puerto]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) (./lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+) (./lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599 ...IA Jetson AGX,label={cod:servidorUDPwpf}]
+                                                  
+The following languages weren't loadable:
+    ,sharpc$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: language sharpc undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599 ...IA Jetson AGX,label={cod:servidorUDPwpf}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.620 ...ng}[h!, language=sharpc,caption=Función 
+                                                  encargada de enviar los da...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+<img/servidorAtenciónRojo.png, id=1001, 667.74469pt x 506.6428pt>
+File: img/servidorAtenciónRojo.png Graphic file (type png)
+<use img/servidorAtenciónRojo.png>
+Package pdftex.def Info: img/servidorAtenciónRojo.png  used on input line 634.
+
+(pdftex.def)             Requested size: 202.72523pt x 153.81073pt.
+<img/servidorAtencionVerde.png, id=1002, 667.74469pt x 506.6428pt>
+File: img/servidorAtencionVerde.png Graphic file (type png)
+<use img/servidorAtencionVerde.png>
+Package pdftex.def Info: img/servidorAtencionVerde.png  used on input line 640.
+
+(pdftex.def)             Requested size: 202.72523pt x 153.81073pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./img/servidorAtenciónRojo.png (PNG copy)> <./img/servidorAtencionVerde.p
+ng (PNG copy)>]
+
+LaTeX Warning: Citation `nvidiaEndToEnd' on page 28 undefined on input line 655
+.
+
+<img/DiagramaIntersecciones.png, id=1049, 573.14125pt x 1295.84125pt>
+File: img/DiagramaIntersecciones.png Graphic file (type png)
+<use img/DiagramaIntersecciones.png>
+Package pdftex.def Info: img/DiagramaIntersecciones.png  used on input line 658
+.
+(pdftex.def)             Requested size: 256.07741pt x 578.99063pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/intersecImg.png, id=1051, 252.945pt x 126.4725pt>
+File: img/intersecImg.png Graphic file (type png)
+<use img/intersecImg.png>
+Package pdftex.def Info: img/intersecImg.png  used on input line 666.
+(pdftex.def)             Requested size: 256.07741pt x 128.0411pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/interseccionesAcc.png, id=1053, 706.64pt x 495.8525pt>
+File: img/interseccionesAcc.png Graphic file (type png)
+<use img/interseccionesAcc.png>
+Package pdftex.def Info: img/interseccionesAcc.png  used on input line 690.
+(pdftex.def)             Requested size: 192.0548pt x 134.7672pt.
+<img/interseccionesLoss.png, id=1054, 706.64pt x 495.8525pt>
+File: img/interseccionesLoss.png Graphic file (type png)
+<use img/interseccionesLoss.png>
+Package pdftex.def Info: img/interseccionesLoss.png  used on input line 696.
+(pdftex.def)             Requested size: 192.0548pt x 134.7672pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./img/DiagramaIntersecciones.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./img/intersecImg.png (PNG copy)> <./img/interseccionesAcc.png (PNG copy)>
+ <./img/interseccionesLoss.png (PNG copy)>]
+
+LaTeX Warning: Citation `lin2014microsoft' on page 31 undefined on input line 7
+39.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31
+
+]
+<img/PerspectivaWarp.png, id=1091, 1305.87875pt x 499.8675pt>
+File: img/PerspectivaWarp.png Graphic file (type png)
+<use img/PerspectivaWarp.png>
+Package pdftex.def Info: img/PerspectivaWarp.png  used on input line 862.
+(pdftex.def)             Requested size: 405.45047pt x 155.19377pt.
+<img/warp2.png, id=1092, 481.8pt x 361.35pt>
+File: img/warp2.png Graphic file (type png)
+<use img/warp2.png>
+Package pdftex.def Info: img/warp2.png  used on input line 880.
+(pdftex.def)             Requested size: 126.75687pt x 95.06256pt.
+<img/warp1.png, id=1093, 481.8pt x 361.35pt>
+File: img/warp1.png Graphic file (type png)
+<use img/warp1.png>
+Package pdftex.def Info: img/warp1.png  used on input line 884.
+(pdftex.def)             Requested size: 126.75687pt x 95.06256pt.
+<img/warp3.png, id=1094, 481.8pt x 361.35pt>
+File: img/warp3.png Graphic file (type png)
+<use img/warp3.png>
+Package pdftex.def Info: img/warp3.png  used on input line 888.
+(pdftex.def)             Requested size: 126.75687pt x 95.06256pt.
+<img/persWarpRGB.png, id=1097, 472.01344pt x 655.69969pt>
+File: img/persWarpRGB.png Graphic file (type png)
+<use img/persWarpRGB.png>
+Package pdftex.def Info: img/persWarpRGB.png  used on input line 898.
+(pdftex.def)             Requested size: 384.1096pt x 533.59512pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./img/PerspectivaWarp.png> <./img/warp2.png> <./img/warp1.png> <./img/warp
+3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.920 ...cas de la calzada, label={cod:filtrohsl}]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35 <./img/persWarpRGB.png (PNG copy)>]
+<img/filtromalo.png, id=1188, 241.65282pt x 219.06844pt>
+File: img/filtromalo.png Graphic file (type png)
+<use img/filtromalo.png>
+Package pdftex.def Info: img/filtromalo.png  used on input line 933.
+(pdftex.def)             Requested size: 256.07741pt x 232.16797pt.
+<img/frontMasked.png, id=1189, 332.74312pt x 207.02344pt>
+File: img/frontMasked.png Graphic file (type png)
+<use img/frontMasked.png>
+Package pdftex.def Info: img/frontMasked.png  used on input line 941.
+(pdftex.def)             Requested size: 341.43437pt x 212.44362pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./img/filtromalo.png (PNG copy)> <./img/frontMasked.png (PNG copy)>]
+<img/TemplatesPatternMatching.png, id=1199, 295.1025pt x 99.37125pt>
+File: img/TemplatesPatternMatching.png Graphic file (type png)
+<use img/TemplatesPatternMatching.png>
+Package pdftex.def Info: img/TemplatesPatternMatching.png  used on input line 9
+60.
+(pdftex.def)             Requested size: 341.43437pt x 114.97504pt.
+<img/inmeditamenteDelante.png, id=1200, 137.7647pt x 60.225pt>
+File: img/inmeditamenteDelante.png Graphic file (type png)
+<use img/inmeditamenteDelante.png>
+Package pdftex.def Info: img/inmeditamenteDelante.png  used on input line 967.
+(pdftex.def)             Requested size: 341.43437pt x 149.27554pt.
+
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...as en calzada, label={cod:mathctemplate}]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37
+
+ <./img/TemplatesPatternMatching.png> <./img/inmeditamenteDelante.png (PNG copy
+)>]
+
+LaTeX Warning: Citation `karpathyAI' on page 38 undefined on input line 993.
+
+<img/semaforoPrincipal.png, id=1217, 963.6pt x 447.6725pt>
+File: img/semaforoPrincipal.png Graphic file (type png)
+<use img/semaforoPrincipal.png>
+Package pdftex.def Info: img/semaforoPrincipal.png  used on input line 1000.
+(pdftex.def)             Requested size: 426.79135pt x 198.27438pt.
+<img/semaf25x25.png, id=1218, 164.86594pt x 163.3603pt>
+File: img/semaf25x25.png Graphic file (type png)
+<use img/semaf25x25.png>
+Package pdftex.def Info: img/semaf25x25.png  used on input line 1011.
+(pdftex.def)             Requested size: 106.69783pt x 105.72676pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38
+
+ <./img/semaforoPrincipal.png> <./img/semaf25x25.png (PNG copy)>]
+<img/DiagramaModeloSemaf.png, id=1226, 573.14125pt x 962.59625pt>
+File: img/DiagramaModeloSemaf.png Graphic file (type png)
+<use img/DiagramaModeloSemaf.png>
+Package pdftex.def Info: img/DiagramaModeloSemaf.png  used on input line 1027.
+(pdftex.def)             Requested size: 256.07741pt x 430.09451pt.
+<img/semafAcc.png, id=1228, 706.64pt x 495.8525pt>
+File: img/semafAcc.png Graphic file (type png)
+<use img/semafAcc.png>
+Package pdftex.def Info: img/semafAcc.png  used on input line 1037.
+(pdftex.def)             Requested size: 192.0548pt x 134.7672pt.
+<img/semafLoss.png, id=1229, 706.64pt x 495.8525pt>
+File: img/semafLoss.png Graphic file (type png)
+<use img/semafLoss.png>
+Package pdftex.def Info: img/semafLoss.png  used on input line 1043.
+(pdftex.def)             Requested size: 192.0548pt x 134.7672pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./img/DiagramaModeloSemaf.png>]
+<img/Algoritmo de tracking vehículos.png, id=1236, 967.615pt x 372.39125pt>
+File: img/Algoritmo de tracking vehículos.png Graphic file (type png)
+<use img/Algoritmo de tracking vehículos.png>
+Package pdftex.def Info: img/Algoritmo de tracking vehículos.png  used on inpu
+t line 1071.
+(pdftex.def)             Requested size: 426.79135pt x 164.25041pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Posicionfutura.png, id=1237, 1084.05pt x 589.20125pt>
+File: img/Posicionfutura.png Graphic file (type png)
+<use img/Posicionfutura.png>
+Package pdftex.def Info: img/Posicionfutura.png  used on input line 1083.
+(pdftex.def)             Requested size: 426.79135pt x 231.97224pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40 <./img/semafAcc.png (PNG copy)> <./img/semafLoss.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41 <./img/Algoritmo de tracking vehículos.png> <./img/Posicionfutura.png>]
+<img/peatones.png, id=1248, 478.03593pt x 358.33875pt>
+File: img/peatones.png Graphic file (type png)
+<use img/peatones.png>
+Package pdftex.def Info: img/peatones.png  used on input line 1099.
+(pdftex.def)             Requested size: 384.1096pt x 287.92899pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42
+
+ <./img/peatones.png (PNG copy)>]
+<img/angulomuerto.png, id=1255, 743.77875pt x 188.20313pt>
+File: img/angulomuerto.png Graphic file (type png)
+<use img/angulomuerto.png>
+Package pdftex.def Info: img/angulomuerto.png  used on input line 1129.
+(pdftex.def)             Requested size: 426.79135pt x 107.99481pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43
+
+ <./img/angulomuerto.png (PNG copy)>]
+<img/FlightDirector.png, id=1260, 803.0pt x 757.83125pt>
+File: img/FlightDirector.png Graphic file (type png)
+<use img/FlightDirector.png>
+Package pdftex.def Info: img/FlightDirector.png  used on input line 1144.
+(pdftex.def)             Requested size: 213.39568pt x 201.39093pt.
+<img/rdwheel.png, id=1261, 515.67656pt x 358.33875pt>
+File: img/rdwheel.png Graphic file (type png)
+<use img/rdwheel.png>
+Package pdftex.def Info: img/rdwheel.png  used on input line 1150.
+(pdftex.def)             Requested size: 341.43437pt x 237.26433pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./img/FlightDirector.png> <./img/rdwheel.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+<img/InterfazCV2_1.png, id=1274, 1155.56718pt x 651.93562pt>
+File: img/InterfazCV2_1.png Graphic file (type png)
+<use img/InterfazCV2_1.png>
+Package pdftex.def Info: img/InterfazCV2_1.png  used on input line 1180.
+(pdftex.def)             Requested size: 192.0548pt x 108.3506pt.
+<img/InterfazCV2_2.png, id=1275, 1155.56718pt x 651.93562pt>
+File: img/InterfazCV2_2.png Graphic file (type png)
+<use img/InterfazCV2_2.png>
+Package pdftex.def Info: img/InterfazCV2_2.png  used on input line 1186.
+(pdftex.def)             Requested size: 192.0548pt x 108.3506pt.
+<img/interfazJetson.png, id=1277, 764.8575pt x 1393.45593pt>
+File: img/interfazJetson.png Graphic file (type png)
+<use img/interfazJetson.png>
+Package pdftex.def Info: img/interfazJetson.png  used on input line 1204.
+(pdftex.def)             Requested size: 405.45047pt x 738.67697pt.
+
+
+LaTeX Warning: Float too large for page by 59.49388pt on input line 1207.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46
+
+ <./img/InterfazCV2_1.png (PNG copy)> <./img/InterfazCV2_2.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47 <./img/interfazJetson.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+
+ []
+
+<img/Notificaciones.png, id=1288, 626.34pt x 217.81375pt>
+File: img/Notificaciones.png Graphic file (type png)
+<use img/Notificaciones.png>
+Package pdftex.def Info: img/Notificaciones.png  used on input line 1224.
+(pdftex.def)             Requested size: 341.43437pt x 118.7377pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48
+
+ <./img/Notificaciones.png>]
+
+! Package keyval Error: h! undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1246 ...ificaciones acústicas, label={cod:mpv}]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49
+
+]
+
+LaTeX Warning: Citation `teslaautopilotrecruiting' on page 50 undefined on inpu
+t line 1314.
+
+
+LaTeX Warning: Citation `teslaAutonomyDay' on page 50 undefined on input line 1
+314.
+
+) (./Capitulos/principales/Bloque3.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50
+
+]
+Cap\'{\i }tulo 3.
+<img/Inicial/gantt-inicial.png, id=1337, 1011.02719pt x 487.8225pt>
+File: img/Inicial/gantt-inicial.png Graphic file (type png)
+<use img/Inicial/gantt-inicial.png>
+Package pdftex.def Info: img/Inicial/gantt-inicial.png  used on input line 13.
+(pdftex.def)             Requested size: 384.1096pt x 185.33725pt.
+<img/Inicial/costes.PNG, id=1339, 462.22687pt x 283.0575pt>
+File: img/Inicial/costes.PNG Graphic file (type png)
+<use img/Inicial/costes.PNG>
+Package pdftex.def Info: img/Inicial/costes.PNG  used on input line 22.
+(pdftex.def)             Requested size: 298.75264pt x 182.9486pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51
+
+ <./img/Inicial/gantt-inicial.png>]
+<img/Final/gantt.png, id=1345, 1227.83719pt x 1090.0725pt>
+File: img/Final/gantt.png Graphic file (type png)
+<use img/Final/gantt.png>
+Package pdftex.def Info: img/Final/gantt.png  used on input line 44.
+(pdftex.def)             Requested size: 426.79135pt x 378.90305pt.
+<img/Final/costes.PNG, id=1347, 394.47375pt x 244.66406pt>
+File: img/Final/costes.PNG Graphic file (type png)
+<use img/Final/costes.PNG>
+Package pdftex.def Info: img/Final/costes.PNG  used on input line 55.
+(pdftex.def)             Requested size: 298.75264pt x 185.29329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `preciosInformatica' on page 52 undefined on input line
+ 63.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52 <./img/Inicial/costes.PNG>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53 <./img/Final/gantt.png> <./img/Final/costes.PNG>])
+(./Capitulos/principales/Trabajo futuro.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+Cap\'{\i }tulo 4.
+[55
+
+]) (./Capitulos/principales/Conclusiones.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+Cap\'{\i }tulo 5.
+[57
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58])
+No file Memoria.bbl.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59] (./Capitulos/noprincipales/apendices.tex
+
+! Package pdfpages Error: Cannot find file `apendices/adjudicacion.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+! Package pdfpages Error: Cannot find file `1'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+(That was another \errmessage.)
+
+! Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+! Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .pdf\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .pdf\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .png\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .png\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jpg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .mps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .mps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpeg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .jpeg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jbig2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .jbig2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jb2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jb2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PDF\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PDF\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PNG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PNG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JPG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPEG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .JPEG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JBIG2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .JBIG2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JB2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JB2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .eps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .eps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .pdf\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .pdf\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .png\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .png\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jpg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .mps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .mps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpeg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .jpeg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jbig2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .jbig2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jb2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jb2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PDF\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PDF\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PNG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PNG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JPG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPEG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .JPEG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JBIG2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .JBIG2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JB2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JB2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .eps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .eps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[60
+
+
+]
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .pdf\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .pdf\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .png\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .png\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jpg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .mps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .mps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpeg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .jpeg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jbig2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .jbig2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jb2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jb2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PDF\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PDF\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PNG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PNG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JPG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPEG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .JPEG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JBIG2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .JBIG2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JB2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JB2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .eps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .eps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .pdf\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .pdf\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .png\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .png\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jpg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .mps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .mps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpeg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .jpeg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jbig2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .jbig2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jb2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jb2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PDF\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PDF\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PNG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PNG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JPG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPEG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .JPEG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JBIG2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .JBIG2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JB2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JB2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .eps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .eps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .pdf\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .pdf\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .png\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .png\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jpg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .mps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .mps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jpeg\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .jpeg\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jbig2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .jbig2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .jb2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .jb2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PDF\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PDF\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .PNG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .PNG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JPG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JPEG\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...tdocname \endcsname .JPEG\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JBIG2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...docname \endcsname .JBIG2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .JB2\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .JB2\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<argument> ...csname\AM@currentdocname \endcsname 
+                                                  .eps\endcsname 
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+<argument> ...ntdocname \endcsname .eps\endcsname 
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...aadjudicacion}]{apendices/adjudicacion.pdf}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[61])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+ (DocumentoCompilado//Memoria.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package rerunfilecheck Info: File `Memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 1D88C5DE3422B8DC882718DA9032B7D2;10184.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+ ) 
+Here is how much of TeX's memory you used:
+ 14807 strings out of 480478
+ 225636 string characters out of 5905959
+ 828287 words of memory out of 5000000
+ 29982 multiletter control sequences out of 15000+600000
+ 552557 words of font info for 81 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,16n,55p,926b,2018s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/
+texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-di
+st/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/
+urw/helvetic/uhvb8a.pfb>
+Output written on DocumentoCompilado//Memoria.pdf (72 pages, 15038587 bytes).
+PDF statistics:
+ 1550 PDF objects out of 1728 (max. 8388607)
+ 1364 compressed objects within 14 object streams
+ 438 named destinations out of 1000 (max. 500000)
+ 1279 words of extra memory for PDF output out of 10000 (max. 10000000)
+

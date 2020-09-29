@@ -1,0 +1,39 @@
+\chapter{Trabajo futuro}\label{capTrabajoFuturo}
+
+\section{Aspectos a mejorar del proyecto}
+Tal y como se ha comentado en el capítulo anterior existen bastantes puntos que podrían haber sido mejorados durante la elaboración de este proyecto.
+De entre todos ellos a continuación realizaremos un pequeño comentario sobre los más interesantes.
+
+\begin{itemize}
+    \item Detección de señales de tráfico\\
+        La detección del límite de velocidad finalmente se ha realizado obteniendo los datos de \textit{ground truth} desde el propio simulador. Uno de los aspectos que se debería considerar para ampliar en el futuro sería la detección de las señales de tráfico para permitir el funcionamiento de este sistema fuera de un simulador.
+
+    \item Mejora del algoritmo de seguimiento de vehículos\\
+        El algoritmo de seguimiento de vehículos explicado en la sección \ref{sec:algoritmoSeguimiento} podría ser modificado para mejorar el rendimiento así como la selección del vehículo del frame anterior con la que la nueva detección se corresponde.
+        Para mejorar este algoritmo sería interesante relacionar las nuevas detecciónes con aquellas cuya intersección del area del rectángulo detectado y el área de los rectángulos de las detecciones anteriores sea máximo.
+
+    \item Mejora de la selección del semáforo que afecta al vehículo\\
+        Como se comentó en la sección \ref{sec:clasificacionSemáforos} la selección del semáforo principal se basa en la distancia de todos los semáforos detectados al centro de la imagen.
+        Este sería uno de los aspectos a considerar más interesantes pero al mismo tiempo sería bastante complicado puesto que para obtener este conocimiento necesitaríamos obtener información mucho más precisa del espacio alrededor del vehículo.
+
+    \item Obtención de otros tipos de datos del exterior del vehículo\\
+        Un punto interesante que se consideró al comienzo del desarrollo y que lamentablemente se tuvo que omitir tras el cambio a trabajar con un simulador fue el uso de los micrófonos de las cámaras PS Eye para reconocer distintos tipos de señales acústicas.
+        En un supuesto trabajo futuro de este proyecto este sería un punto bastante interesante, en especial si se combina con la posibilidad de testear nuestro sistema en un vehículo real.
+\end{itemize}
+
+
+\section{Testeo en un vehículo real}
+Al comienzo del trabajo, antes de la decisión de cambiar a un simulador, se pensaba aplicar nuestro software a un vehículo real y permitir reaccionar ante las situaciones anómalas que se pudiera dar durante la conducción en entornos controlados.
+Por supuesto, tras la decisión de realizar el proyecto con un simulador desechamos esta idea.
+Una vez el sistema se haya mejorado sería interesante ejecutar este en un vehículo real y analizar los resultados que se obtienen.
+
+\section{Independencia del hardware utilizado} \label{sec:independenciaHardware}
+Otro de los puntos importantes a considerar en cuanto a trabajo futuro es la independencia del sistema con el hardware.
+En el estado actual, tal y como se ha comentado en la sección \ref{sec:jetsonInference}, el detector de objetos se ha implementado utilizando una librería de NVIDIA.
+En el mercado existen diversas opciones que se podrían considerar para sustituir a la librería \textit{jetson-inference} siendo la más interesante la propia API de detección de objetos de Tensorflow la cual ha sido recientemente actualizada para hacerla compatible con Tensorflow 2.0 que, como se ha comentado anteriormente, es la versión de Tensorflow que este proyecto está utilizando.
+
+La reescritura del módulo de detección de objetos con una librería sin dependencias de hardware nos permitiría trasladar la ejecución de nuestro sistema a otros dispositivos empotrados así como en equipos de escritorio y, con gran seguridad, se obtendrían mejores resultados.
+
+
+\section{Ejecución con un sistema mucho más potente}
+De reescribirse el módulo de detección de objetos tal y como se ha comentado en la sección \ref{sec:independenciaHardware} el siguiente paso sería la ejecución del sistema en un equipo mucho más potente para de esta forma poder comprobar si los resultados obtenidos son mejores que los que se han especificado en \ref{sec:pruebas}.

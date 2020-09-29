@@ -1,0 +1,111 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass{pclass}
+\usepackage[utf8]{inputenc}
+
+%DIFERENTES TIPOS DE LETRA
+%\usepackage{palatino}
+%\usepackage{times}
+
+\nonstopmode
+
+\usepackage{lipsum}
+\usepackage{pdfpages}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage[pdftex, pdfborderstyle={/S/U/W 0}]{hyperref}
+\usepackage{eurosym}
+\usepackage{wrapfig}
+
+%Metadata
+
+\usepackage{hyperref}
+\hypersetup{
+pdftitle={Sistema integral de ayuda a la conducción con sistemas empotrados de bajo coste},
+pdfsubject={Trabajo fin de grado para la titulación de Ingeniería informática - Tecnologías Informáticas},
+pdfauthor={Juan Arteaga Carmona},
+pdfproducer={Latex with hyperref},
+pdfkeywords={TFG, ETSII, sistema ayuda a la conducción, atención del conductor, autopilot, object detection, neural networks},
+pdfcreator={Compilado con pdflatex en Jupiter - Hello World!}
+}
+
+
+% \usepackage{draftwatermark}
+% \SetWatermarkText{BORRADOR}
+% \SetWatermarkScale{5}
+
+
+% Subsubsection en el TOC
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+
+\begin{document}
+
+%Cambiamos 'Cuadro' por 'Tabla'
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+
+
+\tipo{Grado}   % TODO: en minúscula?
+\titulopro{\huge Sistema integral de ayuda a la conducción con sistemas empotrados de bajo coste}
+\tutor{Francisco Luna Perejón\\Manuel Jesús Dominguez Morales}
+\departamento{Arquitectura y tecnología de computadores}
+\autores{Juan Arteaga Carmona}
+
+\dia{\today}
+\titulacion{Grado en Ingeniería Informática - Tecnologías Informáticas}
+
+\hacerportada
+
+	\input{tocdef}
+	\frontmatter
+
+	\input{Capitulos/noprincipales/resumenIngles.tex}
+	\input{Capitulos/noprincipales/resumen.tex}
+	\input{Capitulos/noprincipales/agradecimientos.tex}
+
+	\tableofcontents % Índice de contenidos
+ 	\listoftables % Índice de cuadros
+ 	\listoffigures % Índice de figuras
+ 	\lstlistoflistings %Índice de códigos
+
+	\mainmatter
+
+	  \input{Capitulos/principales/Bloque1.tex}
+	  
+	  \input{Capitulos/principales/Bloque2.tex}
+
+	  \input{Capitulos/principales/Bloque3.tex}
+
+	  \input{Capitulos/principales/Trabajo futuro.tex}
+
+	  \input{Capitulos/principales/Conclusiones.tex}
+	 
+
+
+%     \input{Capitulos/capitulo2}
+%     \input{Capitulos/defobjetivos}
+%     \input{Capitulos/requisitos}
+%     \input{Capitulos/analanteced}
+%     \input{Capitulos/analtemporal}
+%     \input{Capitulos/alternativas}
+%     \input{Capitulos/pruebas}
+%     \input{Capitulos/manual}
+
+
+	%\bibliographystyle{sousa5}
+	%\bibliographystyle{apacite}
+	%\bibliographystyle{apalike}
+	
+	\bibliographystyle{IEEEtran}
+	
+	%\nocite{*} %Muestra toda la bibliografía, eliminar!!
+	\renewcommand\bibname{Referencias bibliográficas}
+	\bibliography{Bibliografia/bibliografia.bib}
+
+
+\backmatter
+
+	\input{Capitulos/noprincipales/apendices.tex}
+
+\end{document}

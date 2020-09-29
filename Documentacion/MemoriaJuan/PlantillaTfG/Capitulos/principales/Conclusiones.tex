@@ -1,0 +1,61 @@
+\chapter{Conclusiones}\label{capConclusiones}
+A continuación procederemos a la conclusión de este trabajo comentando varios puntos interesantes.
+
+\section{Comparativa con los objetivos y requisitos iniciales}
+Como se indicó en el primer capítulo existen dos tipos de objetivos que se habían propuesto al comienzo de este trabajo: los objetivos técnicos y los objetivos académicos.
+
+Esta vez comenzaremos por los requisitos académicos, que recordemos eran los siguientes:
+
+\begin{itemize}
+    \item Creación de una aplicación robusta y funcional que cumpla los objetivos técnicos del proyecto
+    \item Ampliar conocimiento y profundizar en el estudio de distintas técnicas de \textit{Machine Learning}
+    \item Ampliar conocimiento sobre la elaboración de aplicaciones con interfaz gráfica
+\end{itemize}
+
+En este aspecto se han cumplido los requisitos sin problema alguno.
+
+Con la elaboración de este trabajo se ha demostrado poseer los conocimientos necesarios para implementar una aplicación y al mismo tiempo se ha ampliado conocimiento en las áreas en las que se deseaba. Tras el desarrollo de este proyecto se han aprendido conocimientos esenciales acerca de \textit{Machine Learning} gracias al uso de Tensorflow, TensorRT y jetson-inference. En cuanto al desarrollo de aplicaciones con interfaz gráfica se ha aprendido a crear interfaces basadas en Qt y la integración de esta con OpenCV es sin duda uno de los puntos más interesante de entre los que han sido aprendidos.
+
+
+Respecto a los objetivos técnicos que nos planteamos al comienzo del proyecto también podemos asegurar que han sido superados.
+
+\begin{itemize}
+    \item \textbf{Detección y seguimiento del límite de velocidad:}
+                El límite de velocidad es recibido por nuestra aplicación y, en el caso de que lo superemos, mostramos una notificación visual y reproducimos una auditiva por lo que podemos asegurar que este objetivo ha sido cumplido.
+
+    \item \textbf{Detección y aviso cambio de semáforo:}
+                Nuestra aplicación es capaz de reconocer el estado del semáforo que afecta a nuestro vehículos y reacciona una vez este cambia de color avisándonos visual y acústicamente por lo tanto este objetivo ha sido cumplido.
+                
+    \item \textbf{Detección y aviso de salida de carril:}
+                El módulo \textit{Road director} de nuestra aplicación es el responsable de controlar que los movimientos del volante del vehículo del conductor se correspondan con los esperados. A pesar de que el sistema no funciona excesivamente bien, en casos extremos el comportamiento es el esperado y con un poco de trabajo futuro podría tratarse de un gran sistema de ayuda a la conducción e incluso un sistema primitivo de conducción autónoma.
+
+    \item \textbf{Detección y aviso de vehículos en ángulo muerto:}
+                Nuestro sistema es capaz de realizar un seguimiento de los vehículos a su alrededor por lo tanto también es capaz de detectar los vehículos en su punto muerto.
+                Además se muestra una notificación visual cuando se detecta un vehículo en alguna de las cámaras que apuntan hacia atrás. Por lo tanto podemos afirmar que se ha cumplido este objetivo.
+
+    \item \textbf{Detección y aviso de peatones en la trayectoria del vehículo:}
+                Al igual que con el tercer objetivo este necesitaría de un poco de trabajo futuro para poder ser considerablemente mejorado. El principal problema aparece a raíz de los problemas de detección del modelo de detección de objetos cuya precisión no es lo suficientemente buena como para realizar una predicción al igual que con los vehículos. Sin embargo, el módulo de detección de objetos consigue detectar y predecir la posición de las personas y se muestra una icono en nuestra aplicación si se predice que un peatón entrará en la trayectoria del vehículo luego el objetivo ha sido cumplido.
+
+    \item \textbf{Satisfactoria implementación del sistema en un sistema empotrado:}
+                El sistema se encuentra ejecutándose en un dispositivo NVIDIA Jetson AGX Xavier por lo tanto este objetivo ha sido cumplido.
+\end{itemize}
+
+
+\section{Aspectos a mejorar}
+Como se ha visto en el capítulo anterior existen bastantes puntos a mejorar en este trabajo y esto puede hacer que parezca que el resultado final no se corresponde con el esperado. Sin embargo, hay que tener en cuenta que desde el principio la planificación del trabajo ha sido para dos personas y finalmente el trabajo ha sido desarrollado por una única persona por lo que es más que razonable que algunos puntos hayan quedado peor que otros y necesiten un poco de trabajo futuro para llegar al nivel que se esperaba.
+
+Aún asi se han cumplido los objetivos por lo que la valoración neta es positiva.
+
+\section{Impresión personal del proyecto}
+A continuación se recoge la opinión personal del autor respecto a la elaboración del trabajo.
+
+\subsection{Aspectos positivos}
+Puesto que los objetivos técnicos de este trabajo han sido cumplidos es más que razonable considerar que la impresión personal es completamente positiva. 
+
+El principal aspecto positivo de este trabajo ha sido la adquisición de nuevo conocimiento respecto a técnicas de inteligencia artificial y creación de interfaces aunque sin duda no se puede dejar de lado la capacidad de planificación de este ya que se ha conseguido realizar un trabajo inicialmente planificado para dos personas por una única persona.
+
+\subsection{Aspectos negativos}
+Sin embargo, también hay aspectos negativos que se deben tener en cuenta. El principal aspecto negativo han sido los retrasos que se han ido acumulando durante la elaboración del trabajo los cuales han impedido cumplir con los plazos que se esperaban y nos han obligado a retrasar las entregas.
+también se podría añadir a esta lista los aspectos a considerar como trabajo futuro, siendo el más negativo la falta de implementación del sistema en un vehículo real, que era la idea inicial de este trabajo. 
+
+Aun así, en general, mi valoración personal es completamente positiva.

@@ -1,0 +1,121 @@
+\BOOKMARK [0][-]{section*.5}{\315ndice general}{}% 1
+\BOOKMARK [0][-]{section*.7}{\315ndice de tablas}{}% 2
+\BOOKMARK [0][-]{section*.9}{\315ndice de figuras}{}% 3
+\BOOKMARK [0][-]{section*.11}{\315ndice de c\363digo}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Introducci\363n y motivaci\363n}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Estructura de esta memoria}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Objetivos del proyecto}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Objetivos t\351cnicos}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Objetivos acad\351micos}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{Estado del arte}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{Tesla Autopilot}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Caddillac SuperCruise}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.3}{OpenPilot}{section.1.4}% 14
+\BOOKMARK [1][-]{section.1.5}{Elicitaci\363n de requisitos}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.6}{An\341lisis de riesgos}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.6.1}{Identificaci\363n de los posibles riesgos}{section.1.6}% 17
+\BOOKMARK [2][-]{subsection.1.6.2}{Plan de contingencia ante los posibles riesgos}{section.1.6}% 18
+\BOOKMARK [0][-]{chapter.2}{Ejecuci\363n del proyecto}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Dise\361o del sistema}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.1.1}{Arquitectura}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{Tecnolog\355as consideradas y empleadas}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{Tecnolog\355as hardware}{section.2.2}% 23
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{NVIDIA Jetson AGX Xavier}{subsection.2.2.1}% 24
+\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Sensores RGBD}{subsection.2.2.1}% 25
+\BOOKMARK [4][-]{paragraph.2.2.1.2.1}{Microsoft XBOX 360 Kinect}{subsubsection.2.2.1.2}% 26
+\BOOKMARK [4][-]{paragraph.2.2.1.2.2}{ASUS Xtion Pro Live}{subsubsection.2.2.1.2}% 27
+\BOOKMARK [4][-]{paragraph.2.2.1.2.3}{Conclusiones sobre el uso de sensores RGBD}{subsubsection.2.2.1.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.2.1.3}{Sensores RGB}{subsection.2.2.1}% 29
+\BOOKMARK [4][-]{paragraph.2.2.1.3.1}{SONY PlayStation Eye}{subsubsection.2.2.1.3}% 30
+\BOOKMARK [4][-]{paragraph.2.2.1.3.2}{Aukey PC-LM1}{subsubsection.2.2.1.3}% 31
+\BOOKMARK [3][-]{subsubsection.2.2.1.4}{Conclusiones sobre el uso de sensores RGB y cambio a sensores virtuales}{subsection.2.2.1}% 32
+\BOOKMARK [3][-]{subsubsection.2.2.1.5}{Tobii Eyetracker 4C}{subsection.2.2.1}% 33
+\BOOKMARK [2][-]{subsection.2.2.2}{Tecnolog\355as software}{section.2.2}% 34
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Python}{subsection.2.2.2}% 35
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{OpenCV}{subsection.2.2.2}% 36
+\BOOKMARK [3][-]{subsubsection.2.2.2.3}{C\043 y WPF}{subsection.2.2.2}% 37
+\BOOKMARK [3][-]{subsubsection.2.2.2.4}{Simulador CARLA}{subsection.2.2.2}% 38
+\BOOKMARK [4][-]{paragraph.2.2.2.4.1}{Servidor}{subsubsection.2.2.2.4}% 39
+\BOOKMARK [4][-]{paragraph.2.2.2.4.2}{Veh\355culos}{subsubsection.2.2.2.4}% 40
+\BOOKMARK [4][-]{paragraph.2.2.2.4.3}{Sensores}{subsubsection.2.2.2.4}% 41
+\BOOKMARK [4][-]{paragraph.2.2.2.4.4}{API}{subsubsection.2.2.2.4}% 42
+\BOOKMARK [3][-]{subsubsection.2.2.2.5}{Interfaz gr\341fica con Qt5}{subsection.2.2.2}% 43
+\BOOKMARK [4][-]{paragraph.2.2.2.5.1}{Qt Designer}{subsubsection.2.2.2.5}% 44
+\BOOKMARK [2][-]{subsection.2.2.3}{Datasets utilizados para el entrenamiento de los modelos}{section.2.2}% 45
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{LISA traffic lights dataset}{subsection.2.2.3}% 46
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Dataset de intersecciones}{subsection.2.2.3}% 47
+\BOOKMARK [3][-]{subsubsection.2.2.3.3}{Dataset para Road Director}{subsection.2.2.3}% 48
+\BOOKMARK [1][-]{section.2.3}{Desarrollo}{chapter.2}% 49
+\BOOKMARK [2][-]{subsection.2.3.1}{Preparando el entorno de desarrollo y despliegue}{section.2.3}% 50
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{NVIDIA JetPack}{subsection.2.3.1}% 51
+\BOOKMARK [4][-]{paragraph.2.3.1.1.1}{OpenCV}{subsubsection.2.3.1.1}% 52
+\BOOKMARK [4][-]{paragraph.2.3.1.1.2}{Tensorflow}{subsubsection.2.3.1.1}% 53
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{jetson-inference}{subsection.2.3.1}% 54
+\BOOKMARK [3][-]{subsubsection.2.3.1.3}{CARLA}{subsection.2.3.1}% 55
+\BOOKMARK [4][-]{paragraph.2.3.1.3.1}{Servidor}{subsubsection.2.3.1.3}% 56
+\BOOKMARK [4][-]{paragraph.2.3.1.3.2}{Conductor}{subsubsection.2.3.1.3}% 57
+\BOOKMARK [4][-]{paragraph.2.3.1.3.3}{Cliente Python para la NVIDIA Jetson AGX}{subsubsection.2.3.1.3}% 58
+\BOOKMARK [3][-]{subsubsection.2.3.1.4}{Entorno Windows 10 para sensor de seguimiento ocular}{subsection.2.3.1}% 59
+\BOOKMARK [2][-]{subsection.2.3.2}{Obteniendo datos de los sensores}{section.2.3}% 60
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Im\341genes de las c\341maras RGB}{subsection.2.3.2}% 61
+\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Sensores OBD}{subsection.2.3.2}% 62
+\BOOKMARK [4][-]{paragraph.2.3.2.2.1}{Velocidad del veh\355culo}{subsubsection.2.3.2.2}% 63
+\BOOKMARK [4][-]{paragraph.2.3.2.2.2}{\301ngulo del volante}{subsubsection.2.3.2.2}% 64
+\BOOKMARK [4][-]{paragraph.2.3.2.2.3}{L\355mite de velocidad}{subsubsection.2.3.2.2}% 65
+\BOOKMARK [3][-]{subsubsection.2.3.2.3}{Sensor de atenci\363n del conductor}{subsection.2.3.2}% 66
+\BOOKMARK [4][-]{paragraph.2.3.2.3.1}{Estructura de la aplicaci\363n}{subsubsection.2.3.2.3}% 67
+\BOOKMARK [4][-]{paragraph.2.3.2.3.2}{Obtenci\363n del estado del conductor}{subsubsection.2.3.2.3}% 68
+\BOOKMARK [4][-]{paragraph.2.3.2.3.3}{Env\355o de los datos a nuestra aplicaci\363n}{subsubsection.2.3.2.3}% 69
+\BOOKMARK [2][-]{subsection.2.3.3}{Obteniendo conocimiento a partir de los datos adquiridos}{section.2.3}% 70
+\BOOKMARK [3][-]{subsubsection.2.3.3.1}{Detecci\363n de intersecciones}{subsection.2.3.3}% 71
+\BOOKMARK [3][-]{subsubsection.2.3.3.2}{Detecci\363n de objetos}{subsection.2.3.3}% 72
+\BOOKMARK [3][-]{subsubsection.2.3.3.3}{Transformaci\363n de perspectiva sobre las im\341genes de las c\341maras}{subsection.2.3.3}% 73
+\BOOKMARK [3][-]{subsubsection.2.3.3.4}{Detecci\363n de marcas de la calzada}{subsection.2.3.3}% 74
+\BOOKMARK [4][-]{paragraph.2.3.3.4.1}{Filtrado de la imagen para obtener marcas en la calzada}{subsubsection.2.3.3.4}% 75
+\BOOKMARK [4][-]{paragraph.2.3.3.4.2}{Template Matching con OpenCV}{subsubsection.2.3.3.4}% 76
+\BOOKMARK [2][-]{subsection.2.3.4}{Analizando los datos}{section.2.3}% 77
+\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Clasificaci\363n del estado de los sem\341foros}{subsection.2.3.4}% 78
+\BOOKMARK [4][-]{paragraph.2.3.4.1.1}{Modelo de clasificaci\363n de sem\341foros}{subsubsection.2.3.4.1}% 79
+\BOOKMARK [3][-]{subsubsection.2.3.4.2}{Algoritmo de seguimiento de veh\355culos y predicci\363n de la posici\363n futura}{subsection.2.3.4}% 80
+\BOOKMARK [3][-]{subsubsection.2.3.4.3}{Algoritmo de seguimiento de peatones}{subsection.2.3.4}% 81
+\BOOKMARK [2][-]{subsection.2.3.5}{Toma de decisiones}{section.2.3}% 82
+\BOOKMARK [3][-]{subsubsection.2.3.5.1}{Control del l\355mite de velocidad}{subsection.2.3.5}% 83
+\BOOKMARK [3][-]{subsubsection.2.3.5.2}{Control de la atenci\363n del conductor}{subsection.2.3.5}% 84
+\BOOKMARK [3][-]{subsubsection.2.3.5.3}{Aviso de cambio de sem\341foro}{subsection.2.3.5}% 85
+\BOOKMARK [3][-]{subsubsection.2.3.5.4}{Aviso de veh\355culo en \341ngulo muerto}{subsection.2.3.5}% 86
+\BOOKMARK [3][-]{subsubsection.2.3.5.5}{Road director}{subsection.2.3.5}% 87
+\BOOKMARK [4][-]{paragraph.2.3.5.5.1}{Entrenamiento y resultados obtenidos}{subsubsection.2.3.5.5}% 88
+\BOOKMARK [2][-]{subsection.2.3.6}{Interfaz gr\341fica y notificaciones visuales}{section.2.3}% 89
+\BOOKMARK [3][-]{subsubsection.2.3.6.1}{Interfaz inicial basada en OpenCV}{subsection.2.3.6}% 90
+\BOOKMARK [3][-]{subsubsection.2.3.6.2}{Interfaz gr\341fica con Qt5}{subsection.2.3.6}% 91
+\BOOKMARK [4][-]{paragraph.2.3.6.2.1}{C\341maras, detecci\363n de objetos y vista cenital}{subsubsection.2.3.6.2}% 92
+\BOOKMARK [4][-]{paragraph.2.3.6.2.2}{Indicadores}{subsubsection.2.3.6.2}% 93
+\BOOKMARK [4][-]{paragraph.2.3.6.2.3}{Notificaciones}{subsubsection.2.3.6.2}% 94
+\BOOKMARK [4][-]{paragraph.2.3.6.2.4}{Road Director}{subsubsection.2.3.6.2}% 95
+\BOOKMARK [2][-]{subsection.2.3.7}{Notificaciones auditivas}{section.2.3}% 96
+\BOOKMARK [3][-]{subsubsection.2.3.7.1}{Reproducci\363n de sonidos con playsound}{subsection.2.3.7}% 97
+\BOOKMARK [3][-]{subsubsection.2.3.7.2}{Reproducci\363n de sonidos con mpv}{subsection.2.3.7}% 98
+\BOOKMARK [1][-]{section.2.4}{Pruebas del sistema}{chapter.2}% 99
+\BOOKMARK [0][-]{chapter.3}{Planificaci\363n del proyecto}{}% 100
+\BOOKMARK [1][-]{section.3.1}{Planificaci\363n temporal inicial}{chapter.3}% 101
+\BOOKMARK [1][-]{section.3.2}{Planificaci\363n financiera inicial}{chapter.3}% 102
+\BOOKMARK [1][-]{section.3.3}{Retrasos provocados por diversos motivos y cambios en el trabajo}{chapter.3}% 103
+\BOOKMARK [1][-]{section.3.4}{Planificaci\363n temporal final}{chapter.3}% 104
+\BOOKMARK [1][-]{section.3.5}{Planificaci\363n financiera final}{chapter.3}% 105
+\BOOKMARK [1][-]{section.3.6}{Precios utilizados}{chapter.3}% 106
+\BOOKMARK [1][-]{section.3.7}{Estudio de mercado}{chapter.3}% 107
+\BOOKMARK [2][-]{subsection.3.7.1}{Clientes potenciales}{section.3.7}% 108
+\BOOKMARK [2][-]{subsection.3.7.2}{Plan de comercializaci\363n}{section.3.7}% 109
+\BOOKMARK [0][-]{chapter.4}{Trabajo futuro}{}% 110
+\BOOKMARK [1][-]{section.4.1}{Aspectos a mejorar del proyecto}{chapter.4}% 111
+\BOOKMARK [1][-]{section.4.2}{Testeo en un veh\355culo real}{chapter.4}% 112
+\BOOKMARK [1][-]{section.4.3}{Independencia del hardware utilizado}{chapter.4}% 113
+\BOOKMARK [1][-]{section.4.4}{Ejecuci\363n con un sistema mucho m\341s potente}{chapter.4}% 114
+\BOOKMARK [0][-]{chapter.5}{Conclusiones}{}% 115
+\BOOKMARK [1][-]{section.5.1}{Comparativa con los objetivos y requisitos iniciales}{chapter.5}% 116
+\BOOKMARK [1][-]{section.5.2}{Aspectos a mejorar}{chapter.5}% 117
+\BOOKMARK [1][-]{section.5.3}{Impresi\363n personal del proyecto}{chapter.5}% 118
+\BOOKMARK [2][-]{subsection.5.3.1}{Aspectos positivos}{section.5.3}% 119
+\BOOKMARK [2][-]{subsection.5.3.2}{Aspectos negativos}{section.5.3}% 120
+\BOOKMARK [0][-]{chapter*.70}{Ap\351ndices}{}% 121

@@ -1,0 +1,25 @@
+Para conectar con CARLA simulator es necesario realizar los siguientes pasos.
+
+1. Arrancar servidor
+    - En linux preferiblemente con OpenGL
+    - Para testeos simples nos bastará con el nivel de calidad bajo
+
+    -> ./Carla.sh -opengl -quality-level=Low
+
+
+2. Conectar script de control 'conductor'
+    - Este script creará los sensores y los conectará al actor del mundo cuyo nombre incluya 'model3'
+    - Utilizaremos como ego_coche el Tesla Model 3 por tener la referencia del mundo real. 
+      Habrá que considerar otros vehiculos (nos darán problemas con las marchas y demás)
+    
+    -> python3.6 <carla_dir>/PythonAPI/examples/TFGmanual_control.py
+
+3. Ejecutar el programa con los parametros necesarios para que este se conecte correctamente al simulador.
+
+    -> connectCARLAopenCV.py
+
+4. Poblaremos el servidor con otros actores (vehiculos y peatones)
+
+    ->python3 spawn_npc.py
+
+
